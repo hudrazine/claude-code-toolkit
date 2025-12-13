@@ -1,2 +1,16 @@
-.claude
-.temp
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+
+# Claude Code local settings (machine-specific)
+.claude/settings.local.json
+*.local.md
+
+# Reference documentation (not part of the distribution)
+references/
