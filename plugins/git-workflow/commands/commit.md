@@ -1,7 +1,7 @@
 ---
 description: Create a single Git commit for the current repository changes.
 model: sonnet
-allowed-tools: Bash(git status:*), Bash(git diff:*), Bash(git branch:*), Bash(git log:*), Bash(git add:*), Bash(git commit:*), Skill, Read, Grep, Glob, AskUserQuestion
+allowed-tools: Bash(git status:*), Bash(git diff:*), Bash(git --no-pager diff:*), Bash(git branch:*), Bash(git log:*), Bash(git --no-pager log:*), Bash(git add:*), Bash(git commit:*), Skill, Read, Grep, Glob, AskUserQuestion
 disable-model-invocation: true
 ---
 

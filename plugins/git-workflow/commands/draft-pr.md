@@ -1,7 +1,7 @@
 ---
 description: Create a Draft Pull Request from the current branch using GitHub CLI.
 model: sonnet
-allowed-tools: Bash(git rev-parse:*), Bash(git status:*), Bash(git branch:*), Bash(git log:*), Bash(gh pr:*), Bash(gh repo:*), Skill, Read, Grep, Glob, AskUserQuestion
+allowed-tools: Bash(git rev-parse:*), Bash(git status:*), Bash(git branch:*), Bash(git log:*), Bash(git --no-pager log:*), Bash(gh pr:*), Bash(gh repo:*), Skill, Read, Grep, Glob, AskUserQuestion
 disable-model-invocation: true
 ---
 
