@@ -1,0 +1,20 @@
+{
+  "name": "claude-code-toolkit",
+  "metadata": {
+    "description": "A collection of Claude plugins for code-related tasks."
+  },
+  "owner": {
+    "name": "Hudrazine"
+  },
+  "plugins": [
+    {
+      "name": "git-workflow",
+      "description": "Git commit and Pull Request workflow commands with semantic message guidance.",
+      "source": "./plugins/git-workflow",
+      "version": "0.1.0",
+      "author": {
+        "name": "Hudrazine"
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "git-workflow",
+  "description": "Git commit and Pull Request workflow commands with semantic message guidance.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Hudrazine"
+  }
+}
