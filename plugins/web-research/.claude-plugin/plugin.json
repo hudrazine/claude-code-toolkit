@@ -1,0 +1,8 @@
+{
+  "name": "web-research",
+  "description": "Web research analyst agent that searches, verifies, and synthesizes information from multiple sources into structured reports with citations",
+  "version": "0.1.0",
+  "author": {
+    "name": "Hudrazine"
+  }
+}
