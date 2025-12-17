@@ -17,4 +17,7 @@ disable-model-invocation: true
 
 Based on the above context, create a Draft Pull Request for this branch.
 
+1. First, use the Skill tool to invoke `git-workflow:draft-pr` skill for detailed workflow guidance
+2. Follow the skill's procedure to create a well-structured Draft PR
+
 **IMPORTANT**: DO NOT open browser (`--web` is prohibited). DO NOT force-push or rebase unless explicitly instructed.

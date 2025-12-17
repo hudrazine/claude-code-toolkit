@@ -16,4 +16,7 @@ disable-model-invocation: true
 
 Based on the above changes, create a single git commit.
 
+1. First, use the Skill tool to invoke `git-workflow:git-commit` skill for detailed workflow guidance
+2. Follow the skill's procedure to create a well-structured commit
+
 **IMPORTANT**: DO NOT push to remote repository. Only create the local commit unless explicitly requested.
