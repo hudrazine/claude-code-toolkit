@@ -1,0 +1,8 @@
+{
+  "name": "doc-coauthoring",
+  "description": "Guides users through a three-stage documentation workflow: Context Gathering, Refinement & Structure, and Reader Testing. Helps create high-quality documentation, proposals, technical specs, and decision docs collaboratively.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Hudrazine"
+  }
+}
