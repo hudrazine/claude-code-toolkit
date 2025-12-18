@@ -13,4 +13,4 @@ Thumbs.db
 *.local.md
 
 # Reference documentation (not part of the distribution)
-references/
+/references
