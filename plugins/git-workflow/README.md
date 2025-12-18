@@ -6,10 +6,8 @@ Git commit and Pull Request workflow commands with semantic message guidance.
 
 This plugin provides:
 
-- **`/commit`** - Create well-structured Git commits with semantic messages
-- **`/draft-pr`** - Create Draft Pull Requests using GitHub CLI
-
-Both commands are backed by Skills that provide workflow knowledge, enabling natural language requests like "commit my changes" or "create a PR".
+- **`/commit`** - Create well-structured Git commits with Conventional Commits format
+- **`/draft-pr`** - Create Draft Pull Requests using GitHub CLI (backed by Skill for natural language triggers)
 
 ## Commands
 
@@ -33,10 +31,9 @@ Creates a Draft Pull Request from the current branch.
 
 | Skill | Triggers |
 |-------|----------|
-| Git Commit Workflow | "commit", "create a commit" |
 | Draft Pull Request Workflow | "create PR", "draft PR", "open PR" |
 
-Skills are automatically activated when you mention relevant keywords, even without using slash commands.
+The Draft PR skill is automatically activated when you mention relevant keywords, even without using the slash command.
 
 ## Safety
 
