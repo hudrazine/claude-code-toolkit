@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Read(.env.example)",
+      "Write(.env.example)",
+      "Bash(rm -rf node_modules)",
+      "Bash(rm -rf dist)",
+      "Bash(rm -rf build)",
+      "Bash(rm -rf .cache)"
+    ],
+    "deny": [
+      "Read(*.env)",
+      "Read(.env.*)",
+      "Read(./secrets/**)",
+      "Read(./**/*.key)",
+      "Read(./**/*.pem)",
+      "Read(~/.aws/**)",
+      "Read(~/.gcloud/**)",
+      "Read(~/.azure/**)",
+      "Read(~/.kube/config)",
+      "Write(./.env*)",
+      "Write(package-lock.json)",
+      "Write(yarn.lock)",
+      "Write(pnpm-lock.yaml)",
+      "Bash(rm:*)",
+      "Bash(curl:*)",
+      "Bash(wget:*)",
+      "Bash(sudo:*)",
+      "Bash(git push --force:*)",
+      "Bash(git reset --hard:*)",
+      "NotebookEdit"
+    ]
+  },
+  "env": {
+    "DISABLE_AUTOUPDATER": "1",
+    "DISABLE_BUG_COMMAND": "1",
+    "CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR": "1",
+    "MCP_TOOL_TIMEOUT": "180000"
+  }
+}
