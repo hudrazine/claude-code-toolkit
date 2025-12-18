@@ -1,0 +1,8 @@
+{
+  "name": "claude-md-authoring",
+  "description": "Guide for writing and optimizing CLAUDE.md files following context engineering best practices",
+  "version": "0.1.0",
+  "author": {
+    "name": "Hudrazine"
+  }
+}

@@ -22,6 +22,14 @@
       "author": {
         "name": "Hudrazine"
       }
+    },
+    {
+      "name": "claude-md-authoring",
+      "description": "Guide for writing and optimizing CLAUDE.md files following context engineering best practices.",
+      "source": "./plugins/claude-md-authoring",
+      "author": {
+        "name": "Hudrazine"
+      }
     }
   ]
 }
