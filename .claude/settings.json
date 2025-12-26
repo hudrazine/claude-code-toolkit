@@ -1,39 +1,41 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "sandbox": {
+    "enabled": true,
+    "autoAllowBashIfSandboxed": true,
+    "network": {
+      "allowLocalBinding": true
+    }
+  },
   "permissions": {
+    "ask": [
+      "Bash(git push:*)",
+      "Bash(git rebase:*)",
+      "Bash(gh pr create:*)",
+      "Bash(gh pr merge:*)",
+      "Bash(gh pr close:*)",
+      "Bash(gh issue close:*)",
+      "Bash(gh release create:*)",
+      "Bash(gh release delete:*)"
+    ],
     "allow": [
-      "Read(.env.example)",
-      "Write(.env.example)",
-      "Bash(rm -rf node_modules)",
-      "Bash(rm -rf dist)",
-      "Bash(rm -rf build)",
-      "Bash(rm -rf .cache)"
+      "Read(./.env.example)",
+      "Edit(./.env.example)"
     ],
     "deny": [
-      "Read(*.env)",
-      "Read(.env.*)",
+      "Read(./.env)",
+      "Read(./.env.*)",
       "Read(./secrets/**)",
       "Read(./**/*.key)",
       "Read(./**/*.pem)",
-      "Read(~/.aws/**)",
-      "Read(~/.gcloud/**)",
-      "Read(~/.azure/**)",
-      "Read(~/.kube/config)",
-      "Write(./.env*)",
-      "Write(package-lock.json)",
-      "Write(yarn.lock)",
-      "Write(pnpm-lock.yaml)",
-      "Bash(rm:*)",
-      "Bash(curl:*)",
-      "Bash(wget:*)",
-      "Bash(sudo:*)",
+      "Edit(./.env*)",
       "Bash(git push --force:*)",
       "Bash(git reset --hard:*)",
+      "Bash(gh repo delete:*)",
       "NotebookEdit"
     ]
   },
   "env": {
-    "DISABLE_AUTOUPDATER": "1",
     "DISABLE_BUG_COMMAND": "1",
     "CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR": "1",
     "MCP_TOOL_TIMEOUT": "180000"
